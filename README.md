@@ -1,8 +1,41 @@
-# Python-Files-Reading
+# File Modifier Project
 
-PLP Internship Python Assignment 
-File Read & Write Challenge 🖋️: Create a program that reads a file and writes a modified version to a new file.
-Error Handling Lab 🧪: Ask the user for a filename and handle errors if it doesn’t exist or can’t be read.
-Outcomes 🎉
+This project provides a simple utility to read text files from the current directory, modify their content, and write the modified content to new files.
 
-By the end of this module, you’ll be skilled in managing files efficiently in Python, ensuring error-free code that gracefully handles unexpected issues. Mastering files and exception handling will allow you to build strong, robust applications!
+## Project Structure
+
+```
+file-modifier-project
+├── src
+│   ├── main.py          # Entry point of the application
+│   ├── file_operations.py # Utility functions for file operations
+├── requirements.txt     # List of dependencies
+└── README.md            # Project documentation
+```
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd file-modifier-project
+   ```
+
+2. Install the required dependencies (if any):
+   ```
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Place the text files you want to modify in the current directory.
+2. Run the application:
+   ```
+   python src/main.py
+   ```
+
+3. The modified files will be created in the same directory with the prefix `modified_`.
+
+## Contributing
+
+Feel free to submit issues or pull requests for improvements or bug fixes.
